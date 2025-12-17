@@ -1,0 +1,17 @@
+** This command to check current running containers
+docker ps
+
+** This command to check all containers
+docker ps -a
+
+** This command to check list of docker images
+docker images
+
+** This command to stop a running containers
+docker stop ID --replace id with actual id of containers
+
+** This command to delete containers
+docker rm ID --replace id with actual id of containers
+
+** This command to remove image from docker
+docker rmi IMG -- replace with image name

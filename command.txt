@@ -15,3 +15,6 @@ docker rm ID --replace id with actual id of containers
 
 ** This command to remove image from docker
 docker rmi IMG -- replace with image name
+
+** This command to run my postgres image
+docker run --name postgres-db (giving container name) -e POSTGRES_PASSWORD= (set password) -p 5432:5432 -d postgres:latest (image name)
